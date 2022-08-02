@@ -1,5 +1,5 @@
 ---
-title: Home
+title: Acasa
 ---
 
 <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
@@ -15,16 +15,16 @@ title: Home
         {{ post.excerpt }}
 
         <p>
-            <a class="button" href="{{ site.baseurl }}{{ post.url }}">Read more</a>
+            <a class="button" href="{{ site.baseurl }}{{ post.url }}">Citeste</a>
         </p>
     </article>
     {% endfor %} {% if paginator.total_pages > 1 %}
     <div class="pagination">
         {% if paginator.previous_page %}
-        <a href="{{ site.baseurl }}{{ paginator.previous_page_path }}" class="previous btn">&larr; Newer posts</a> {% endif %}
+        <a href="{{ site.baseurl }}{{ paginator.previous_page_path }}" class="previous btn">&larr; Postari Mai Noi</a> {% endif %}
 
-        <span class="page_number">{{ paginator.page }} of {{ paginator.total_pages }}</span> {% if paginator.next_page %}
-        <a href="{{ site.baseurl }}{{ paginator.next_page_path }}" class="next btn">Older posts &rarr;</a> {% endif %}
+        <span class="page_number">{{ paginator.page }} din {{ paginator.total_pages }}</span> {% if paginator.next_page %}
+        <a href="{{ site.baseurl }}{{ paginator.next_page_path }}" class="next btn">Postari Mai Vechi &rarr;</a> {% endif %}
     </div>
     {% endif %}
 </section>
