@@ -1,7 +1,7 @@
 ---
 title: Reteta Test
 date: 2022-08-01
-thumbnail: images/new-project.png
+thumbnail: {{ site.url }}/images/new-project.png
 rating: 5
 categories: enda Food
 recipe:
