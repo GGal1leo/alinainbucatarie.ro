@@ -21,7 +21,7 @@ recipe:
     * 2 linguri de faina
     * sare
     * 2-3 catei de usturoi
-    *patrunjel verde
+    * patrunjel verde
   mod de preparare_markdown: |-
 Încingem uleiul si călim ceapa pentru câteva minute, apoi adăugăm usturoiul tăiat mărunt și mai călim împreună câteva minute. Punem paprika, amestecăm, apoi punem și  pulpele. Amestecăm ușor, punem puțină apă, sare si piper. Acoperim și lăsăm să se facă totul împreună  pt 5 minute. Apoi turnăm apă cât să acopere carnea( dar nu mai mult ). Amestecăm ușor, punem capacul și lăsăm  la foc mic să fiarbă totul pentru 35-40 minute. 
 Sosul : smântână, făina, usturoiul dat prin spresa, dar pătrunjelul le amestecăm împreună apoi turnăm puțin lapte pt a face consistenta dorită. îl turnăm peste carne și  mai lăsăm să fiarbă câteva minute sau până se îngroașă sosul. 
