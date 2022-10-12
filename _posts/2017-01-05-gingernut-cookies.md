@@ -1,38 +1,32 @@
 ---
-date: 2017-01-05
-title: Gingernut Cookies
+date: 2022-10-12
+title: Secretele unui Papricas de pui, asa cun il facea bunica
 categories:
-  - Cookies
-featured_image: https://images.unsplash.com/photo-1486893732792-ab0085cb2d43?w=1560&h=940&fit=crop
+  - Mancaruri
+featured_image: images/20210225_162302.jpg
 recipe:
-  servings: 60 cookies
-  prep: 15 minutes
-  cook: 15 minutes
-  ingredients_markdown: |-
-    * 200 g butter
-    * 1 cup sugar
-    * 1 cup golden syrup
-    * 3 cups flour
-    * 1 tablespoon ground ginger
-    * 1 teaspoon baking soda
-  directions_markdown: |-
-    1. Pre heat oven to 350°F.
-    2. Cream the butter and the sugar.
-    3. Add the golden syrup and the dry ingredients.
-    4. Mix everything together and roll into little balls. Put onto a greased baking tray, pressing the balls down very slightly with a fork.
-    5. Bake at 350°F for 15 minutes.
-    6. Cool on a wire rack and keep in an airtight container once cold.
+  servings: 4-6 portii
+  prep: 15 minute
+  cook: 50-60 minute
+  ingrediente_markdown: |-
+    * 1 kg bucati de pui
+    * 1 ceapa mare
+    * 2 catei de usturoi
+    * 1/2 ardei rosu
+    * sare si piper
+    * 1 lingura paprika/boia
+    * apa
+    * pentru sos de smantana
+    * 200g faina
+    * 2 linguri de faina
+    * sare
+    * 2-3 catei de usturoi
+    *patrunjel verde
+  mod de preparare_markdown: |-
+Încingem uleiul si călim ceapa pentru câteva minute, apoi adăugăm usturoiul tăiat mărunt și mai călim împreună câteva minute. Punem paprika, amestecăm, apoi punem și  pulpele. Amestecăm ușor, punem puțină apă, sare si piper. Acoperim și lăsăm să se facă totul împreună  pt 5 minute. Apoi turnăm apă cât să acopere carnea( dar nu mai mult ). Amestecăm ușor, punem capacul și lăsăm  la foc mic să fiarbă totul pentru 35-40 minute. 
+Sosul : smântână, făina, usturoiul dat prin spresa, dar pătrunjelul le amestecăm împreună apoi turnăm puțin lapte pt a face consistenta dorită. îl turnăm peste carne și  mai lăsăm să fiarbă câteva minute sau până se îngroașă sosul. 
+Eu am servit-o cu mămăligă dar o servim la fel de bine  cu pireu sau chiar cu paste. Pofta bună vă doresc și  sper să vă placă  rezultatul și să încercați reteta!
 ---
-These are traditionally a very hard crisp cookie made for dunking into tea or coffee. The bigger you make the balls the crunchier the end result.
+Papricaşul de pui este o mâncare extrem de populară , mai ales în  zona Ardealului. Se face în  foarte multe feluri, iar eu vreau să vă prezint rețeta mamei mele, cea pe care  eu  încerc sa o fac exact cum o facea mama in copilărie, deoarece îmi place extrem de mult. 
 
-![Cookie](https://source.unsplash.com/euGck1ifvp0)
-
-Carefully placing them on the tray.
-
-![Cookie](https://source.unsplash.com/RUPPakds28k)
-
-Little Gavin loves them.
-
-![Cookie](https://source.unsplash.com/YnrSLOAjOEA)
-
-Delicious!
+Delicios!
