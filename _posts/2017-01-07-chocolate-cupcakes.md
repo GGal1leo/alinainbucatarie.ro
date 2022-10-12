@@ -1,16 +1,15 @@
 ---
 date: 2017-01-07
-title: Chocolate Cupcakes
+title: Ciorba de fasole
 categories:
-  - Cupcakes
   - ciorbe
-featured_image: https://source.unsplash.com/qJ0zGkrE1Zg/1560x940
+featured_image: /images/ciorbafasole.jpg
 recipe:
-  servings: 12 cupcakes
-  prep: 5 minutes
+  servings: 6 portii
+  prep: 60 minute
   cook: 25 minutes
   ingredients_markdown: |-
-    **Cupcakes**
+    **Ciorba**
 
     * 2 cups flour
     * 1/2 cup cocoa powder
@@ -25,15 +24,9 @@ recipe:
     * 1 tsp. vanilla
     * 1/2 cup whole milk
     * 1/2 cup boiling water
-
-    **Icing**
-
-    * 8 oz. of cream cheese
-    * 1 cup of powdered sugar
-    * 1/4 cup milk
-    * 1 tablespoon butter
+    
   directions_markdown: |-
-    **Cupcakes**
+    **Ciorba**
 
     1. Preheat Oven 350 degree
     2. In a bowl combine flour, cocoa baking powder, baking soda and salt.
@@ -44,18 +37,19 @@ recipe:
 
     **Icing**
     1. Combine all of the above in a food processor and process until smooth. Refrigerate.
-    2. Frost cupcakes as you use them.
+    2. Frost Ciorba as you use them.
 ---
-These chocolate chocolate cupcakes have a stunning appearance and a rich, chocolatey sweetness. I've found at parties people prefer bite sized deserts so I'd recommend making 24 mini cupcakes rather than 12 large. That way you won't find half eaten cupcakes at your party!
+These chocolate chocolate Ciorba have a stunning appearance and a rich, chocolatey sweetness. I've found at parties people prefer bite sized deserts so I'd recommend making 24 mini Ciorba rather than 12 large. That way you won't find half eaten Ciorba at your party!
 
-![Cupcakes](https://images.unsplash.com/photo-1448131063153-f1e240f98a72?w=1560&h=940&fit=crop)
+![Ciorba](https://images.unsplash.com/photo-1448131063153-f1e240f98a72?w=1560&h=940&fit=crop)
 
 You can never go wrong with sprinkles.
 
-![Cupcakes](https://images.unsplash.com/photo-1420730614543-e39f93134b0d?w=1560&h=940&fit=crop)
+![Ciorba](https://images.unsplash.com/photo-1420730614543-e39f93134b0d?w=1560&h=940&fit=crop)
 
 Milk is a great addition to any cupcake experience.
 
-![Cupcakes](https://images.unsplash.com/photo-1457508252818-162dc1934c2f?w=1560&h=940&fit=crop)
+![Ciorba](https://images.unsplash.com/photo-1457508252818-162dc1934c2f?w=1560&h=940&fit=crop)
 
 Why not add some popcorn?
+![Ciorba](https://www.youtube.com/watch?v=R7Qx9OkD1p0)
