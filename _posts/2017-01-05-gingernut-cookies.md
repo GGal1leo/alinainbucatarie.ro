@@ -3,7 +3,7 @@ date: 2022-10-12
 title: Secretele unui Papricas de pui, asa cun il facea bunica
 categories:
   - Mancaruri
-featured_image: images/20210225_162302.jpg
+featured_image: images/papricas.jpg
 recipe:
   servings: 4-6 portii
   prep: 15 minute
