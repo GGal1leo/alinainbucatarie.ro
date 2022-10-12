@@ -1,5 +1,5 @@
 ---
-date: 2017-01-07
+date: 2022-10-12
 title: Ciorba de fasole
 categories:
   - ciorbe
@@ -41,15 +41,4 @@ recipe:
 ---
 These chocolate chocolate Ciorba have a stunning appearance and a rich, chocolatey sweetness. I've found at parties people prefer bite sized deserts so I'd recommend making 24 mini Ciorba rather than 12 large. That way you won't find half eaten Ciorba at your party!
 
-![Ciorba](https://images.unsplash.com/photo-1448131063153-f1e240f98a72?w=1560&h=940&fit=crop)
-
-You can never go wrong with sprinkles.
-
-![Ciorba](https://images.unsplash.com/photo-1420730614543-e39f93134b0d?w=1560&h=940&fit=crop)
-
-Milk is a great addition to any cupcake experience.
-
-![Ciorba](https://images.unsplash.com/photo-1457508252818-162dc1934c2f?w=1560&h=940&fit=crop)
-
-Why not add some popcorn?
 ![Ciorba](https://www.youtube.com/watch?v=R7Qx9OkD1p0)
