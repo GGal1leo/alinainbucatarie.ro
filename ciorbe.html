@@ -8,7 +8,7 @@ image_view: true
 
 {% assign filterCategory = "ciorbe" %}
 
-{% for tag in site.tags %}
+{% for tag in site.categories %}
     {% assign postsInCategory = "" | split: "/" %}
 
     {% for post in tag[1] %}
