@@ -22,11 +22,10 @@ image_view: true
                 <img src="{{ post.featured_image }}" alt="{{ post.title }}" />
             </div>
 
-            {{ post.excerpt }}
-
             <p>
-                <a class="button" href="{{ post.url }}">Citeste</a>
+                <a class="button" href="{{ site.baseurl }}{{ post.url }}">Citeste</a>
             </p>
         </article>
-	{% endif %}
+        {% endfor %}
+    {% endif %}
 {% endfor %}
