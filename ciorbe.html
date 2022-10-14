@@ -4,8 +4,6 @@ image_view: true
 ---
 <h1>Ciorbe</h1>
 
-
-
 {% assign filterCategory = "ciorbe" %}
 
 {% for tag in site.categories %}
@@ -21,7 +19,7 @@ image_view: true
 		<h2>{{ tag[0] }}</h2>
 		<div class="recipes">
 			{% for post in postsInCategory %}
-				<div class="recipe" style="background-image: url('{{ recipe.featured_image }}')">
+				<div class="recipe" style="background-image: url('{{ post.featured_image }}')">
 					<a href="{{ site.baseurl }}{{ post.url }}"><span>{{ post.title }}</span></a>
 				</div>
 		</div>
