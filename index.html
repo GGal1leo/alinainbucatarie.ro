@@ -7,7 +7,7 @@ title: Acasa
 <section class="posts">
     {% for post in paginator.posts %}
     <article class="post">
-        {% include post-heading.html post=post %}
+        <!-- {% include post-heading.html post=post %} -->
         <div class="image">
             <img src="{{ post.featured_image }}" alt="{{ post.title }}" />
         </div>
@@ -15,7 +15,7 @@ title: Acasa
         <!-- {{ post.excerpt }} -->
 
         <p>
-            <a class="button" href="{{ site.baseurl }}{{ post.url }}">Citeste</a>
+            <a class="button" href="{{ site.baseurl }}{{ post.url }}">{% include post-heading.html post=post %}</a>
         </p>
     </article>
     {% endfor %} {% if paginator.total_pages > 1 %}
