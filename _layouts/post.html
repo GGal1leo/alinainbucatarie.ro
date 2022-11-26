@@ -19,12 +19,12 @@ layout: default
 
 	<div class="recipe-contents">
 		<div class="ingredients">
-			<h2>Ingredients</h2>
+			<h2>Ingrediente</h2>
 			{{ page.recipe.ingredients_markdown | markdownify }}
 		</div>
 
 		<div class="directions">
-			<h2>Directions</h2>
+			<h2>Instructiuni</h2>
 			{{ page.recipe.directions_markdown | markdownify }}
 		</div>
 	</div>
@@ -41,7 +41,7 @@ layout: default
 	<div class="cta">
 		<h2>Multe rețete delicioase</h2>
 		<p>Aceasta este doar una din rețelele minunatele ce pot fi găsite pe blog</p>
-		<div class="button"><a href="{{ site.baseurl }}/recipes">Haide să descoperi și alte rețete</a></div>
+		<div class="button"><a href="{{ site.baseurl }}/">Haide să descoperi și alte rețete</a></div>
 	</div>
 	{% if site.disqus_shortname and page.comments %}
 		<div id="disqus_thread"></div>

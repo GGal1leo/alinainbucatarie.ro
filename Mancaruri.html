@@ -2,29 +2,24 @@
 title: Mancaruri
 image_view: true
 ---
-<h1>Mancaruri</h1>
+<h1>Mancaruri</h1><br>
 
-{% assign filterCategory = "mancaruri" %}
 
-{% for tag in site.categories %}
-    {% assign postsInCategory = "" | split: "/" %}
+<section class="posts">
+    {% for post in site.posts %}
+    {% if post.categories contains 'mancaruri' %}
+    <article class="post">
+        {% include post-heading.html post=post %}
+        <div class="image">
+            <img src="{{ post.featured_image }}" alt="{{ post.title }}" />
+        </div>
 
-    {% for post in tag[1] %}
-        {% if post.categories contains filterCategory %}
-            {% assign postsInCategory = postsInCategory | push: post %}
-        {% endif %}
-    {% endfor %}
+        <!-- {{ post.excerpt }} -->
 
-    {% if postsInCategory.size > 0 %}
-        <article class="post">
-            {% include post-heading.html post=post %}
-            <div class="image">
-                <img src="{{ post.featured_image }}" alt="{{ post.title }}" />
-            </div>
-
-            <p>
-                <a class="button" href="{{ site.baseurl }}{{ post.url }}">Citeste</a>
-            </p>
-        </article>
+        <p>
+            <a class="button" href="{{ site.baseurl }}{{ post.url }}">Citeste</a>
+        </p>
+    </article>
     {% endif %}
-{% endfor %}
+    {% endfor %}
+</section>

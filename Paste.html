@@ -2,28 +2,25 @@
 title: Paste
 image_view: true
 ---
-<h1>Paste</h1>
+
+<h1>Paste</h1><br>
 
 
-{% assign filterCategory = "paste" %}
+<section class="posts">
+    {% for post in site.posts %}
+    {% if post.categories contains 'paste' %}
+    <article class="post">
+        {% include post-heading.html post=post %}
+        <div class="image">
+            <img src="{{ post.featured_image }}" alt="{{ post.title }}" />
+        </div>
 
-{% for tag in site.categories %}
-    {% assign postsInCategory = "" | split: "/" %}
+        <!-- {{ post.excerpt }} -->
 
-    {% for post in tag[1] %}
-        {% if post.categories contains filterCategory %}
-            {% assign postsInCategory = postsInCategory | push: post %}
-        {% endif %}
-    {% endfor %}
-
-    {% if postsInCategory.size > 0 %}
-		<h2>{{ tag[0] }}</h2>
-		<div class="recipes">
-			{% for post in postsInCategory %}
-				<div class="recipe" style="background-image: url('{{ post.featured_image }}')">
-					<a href="{{ site.baseurl }}{{ post.url }}"><span>{{ post.title }}</span></a>
-				</div>
-		</div>
-        {% endfor %}
+        <p>
+            <a class="button" href="{{ site.baseurl }}{{ post.url }}">Citeste</a>
+        </p>
+    </article>
     {% endif %}
-{% endfor %}
+    {% endfor %}
+</section>

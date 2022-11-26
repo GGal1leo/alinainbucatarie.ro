@@ -2,12 +2,12 @@
 date: 2022-10-20
 title: Pâine fără frământare
 categories:
-  - Patiserie si paine
+  - patiserie si paine
 featured_image: /images/paine.jpg
 recipe:
   servings: 6 persoane
-  prep: 5 minutes
-  cook: 50 minutes
+  prep: 5 minute
+  cook: 50 minute
   ingredients_markdown: |-
 
     * 500g făină tip 000

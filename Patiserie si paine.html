@@ -2,28 +2,25 @@
 title: Patiserie si paine
 image_view: true
 ---
-<h1>Patiserie si paine</h1>
+
+<h1>Patiserie Si Paine</h1><br>
 
 
-{% assign filterCategory = "patiserie si paine" %}
+<section class="posts">
+    {% for post in site.posts %}
+    {% if post.categories contains 'patiserie si paine' %}
+    <article class="post">
+        {% include post-heading.html post=post %}
+        <div class="image">
+            <img src="{{ post.featured_image }}" alt="{{ post.title }}" />
+        </div>
 
-{% for tag in site.categories %}
-    {% assign postsInCategory = "" | split: "/" %}
+        <!-- {{ post.excerpt }} -->
 
-    {% for post in tag[1] %}
-        {% if post.categories contains filterCategory %}
-            {% assign postsInCategory = postsInCategory | push: post %}
-        {% endif %}
-    {% endfor %}
-
-    {% if postsInCategory.size > 0 %}
-		<h2>{{ tag[0] }}</h2>
-		<div class="recipes">
-			{% for post in postsInCategory %}
-				<div class="recipe" style="background-image: url('{{ post.featured_image }}')">
-					<a href="{{ site.baseurl }}{{ post.url }}"><span>{{ post.title }}</span></a>
-				</div>
-		</div>
-        {% endfor %}
+        <p>
+            <a class="button" href="{{ site.baseurl }}{{ post.url }}">Citeste</a>
+        </p>
+    </article>
     {% endif %}
-{% endfor %}
+    {% endfor %}
+</section>
