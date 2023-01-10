@@ -4,6 +4,8 @@ title: Acasa
 
 <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 
+
+
 <section class="posts">
     {% for post in paginator.posts %}
     <article class="post">
@@ -28,15 +30,3 @@ title: Acasa
     </div>
     {% endif %}
 </section>
-
-<script>
-    if (window.netlifyIdentity) {
-        window.netlifyIdentity.on("init", (user) => {
-            if (!user) {
-                window.netlifyIdentity.on("login", () => {
-                    document.location.href = "/admin/";
-                });
-            }
-        });
-    }
-</script>

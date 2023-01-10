@@ -2,19 +2,25 @@
 title: Aperitive
 image_view: true
 ---
-<h1>Aperitive</h1>
+
+<h1>Aperitive</h1><br>
 
 
+<section class="posts">
+    {% for post in site.posts %}
+    {% if post.categories contains 'aperitive' %}
+    <article class="post">
+        {% include post-heading.html post=post %}
+        <div class="image">
+            <img src="{{ post.featured_image }}" alt="{{ post.title }}" />
+        </div>
 
-{% if page.image_view %}
-	{% for category in site.categories %}
-		<h2>{{ category[0] }}</h2>
-		<div class="recipes">
-			{% for recipe in Aperitive %}
-				<div class="recipe" style="background-image: url('{{ recipe.featured_image }}')">
-					<a href="{{ site.baseurl }}{{ recipe.url }}"><span>{{ recipe.title }}</span></a>
-				</div>
-			{% endfor %}
-		</div>
-	{% endfor %}
-{% endif %}
+        <!-- {{ post.excerpt }} -->
+
+        <p>
+            <a class="button" href="{{ site.baseurl }}{{ post.url }}">Citeste</a>
+        </p>
+    </article>
+    {% endif %}
+    {% endfor %}
+</section>
